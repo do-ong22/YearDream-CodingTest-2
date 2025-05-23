@@ -63,3 +63,53 @@ pip install -r requirements.txt
 4. 각 실습 폴더에서 문제.md 파일 참고하여 문제 이해
 
 5. 직접 문제 해결 후 해설.md 또는 나만의_해설.md 파일로 답안 확인 
+
+
+
+
+
+
+## Git fork 하는 법
+> fork : 다른사람의 저장소(레포지토리)를 내 계정으로 복사하는 의미!!
+
+
+1. 우측 상단 fork 클릭
+
+
+![image](https://github.com/user-attachments/assets/4f0dcf54-4bc3-456f-852b-8198b487a875)
+
+2. 본인의 프로필을 선택하고 Create fork 클릭
+
+   
+![image](https://github.com/user-attachments/assets/0494b281-555b-45d6-8b20-466e0aa3d896)
+
+
+3. 짠! 그럼 내 Github 레포지토리에 똑같이 복사가 된다.
+
+<br>
+
+## Git Clone 하는 법
+> clone : 저장소(레포지토리)를 내 컴퓨터에서 열 수 있도록 프로젝트를 컴퓨터의 폴더로 복사하는 의미!!
+
+1. Code를 누른 후 HTTPS 경로를 복사한다.
+
+![image](https://github.com/user-attachments/assets/0b4fe028-8f73-4cbb-8f36-e5bdeffe06e1)
+
+
+2. vscode (IDE)에서 터미널을 열어준다.
+
+![image](https://github.com/user-attachments/assets/4d520e98-5ee5-49b6-9b0d-bbb4c47f18f4)
+
+
+3. 아래 명령어를 실행한다.
+
+```
+git clone https://github.com/Onesoonduck/yeardream-codingtest.git
+```
+- 이때 뒤에 나오는 경로는 아까 복사했던 HTTPS 경로이다. 
+
+
+4. 그럼 해당 프로젝트가 열린다!
+
+
+![image](https://github.com/user-attachments/assets/fe69ee25-a5b1-4445-abc4-48a58bca6150)
